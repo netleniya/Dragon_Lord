@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC837C222536C93900A33F53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC837C212536C93900A33F53 /* main.cpp */; };
+		FC837C352536C96E00A33F53 /* BlackDragon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC837C2A2536C96E00A33F53 /* BlackDragon.cpp */; };
+		FC837C362536C96E00A33F53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC837C2D2536C96E00A33F53 /* main.cpp */; };
+		FC837C372536C96E00A33F53 /* menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC837C2E2536C96E00A33F53 /* menu.cpp */; };
+		FC837C382536C96E00A33F53 /* RedDragon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC837C312536C96E00A33F53 /* RedDragon.cpp */; };
+		FC837C392536C96E00A33F53 /* Dragon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC837C332536C96E00A33F53 /* Dragon.cpp */; };
+		FC837C3A2536C96E00A33F53 /* BlueDragon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC837C342536C96E00A33F53 /* BlueDragon.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,17 @@
 
 /* Begin PBXFileReference section */
 		FC837C1E2536C93900A33F53 /* Dragon_Lord */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dragon_Lord; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC837C212536C93900A33F53 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC837C2A2536C96E00A33F53 /* BlackDragon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlackDragon.cpp; sourceTree = "<group>"; };
+		FC837C2B2536C96E00A33F53 /* BlueDragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueDragon.h; sourceTree = "<group>"; };
+		FC837C2C2536C96E00A33F53 /* BlackDragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackDragon.h; sourceTree = "<group>"; };
+		FC837C2D2536C96E00A33F53 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC837C2E2536C96E00A33F53 /* menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = menu.cpp; sourceTree = "<group>"; };
+		FC837C2F2536C96E00A33F53 /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		FC837C302536C96E00A33F53 /* menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menu.h; sourceTree = "<group>"; };
+		FC837C312536C96E00A33F53 /* RedDragon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RedDragon.cpp; sourceTree = "<group>"; };
+		FC837C322536C96E00A33F53 /* RedDragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedDragon.h; sourceTree = "<group>"; };
+		FC837C332536C96E00A33F53 /* Dragon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dragon.cpp; sourceTree = "<group>"; };
+		FC837C342536C96E00A33F53 /* BlueDragon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlueDragon.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +72,17 @@
 		FC837C202536C93900A33F53 /* Dragon_Lord */ = {
 			isa = PBXGroup;
 			children = (
-				FC837C212536C93900A33F53 /* main.cpp */,
+				FC837C2A2536C96E00A33F53 /* BlackDragon.cpp */,
+				FC837C2C2536C96E00A33F53 /* BlackDragon.h */,
+				FC837C342536C96E00A33F53 /* BlueDragon.cpp */,
+				FC837C2B2536C96E00A33F53 /* BlueDragon.h */,
+				FC837C332536C96E00A33F53 /* Dragon.cpp */,
+				FC837C2F2536C96E00A33F53 /* Dragon.h */,
+				FC837C2D2536C96E00A33F53 /* main.cpp */,
+				FC837C2E2536C96E00A33F53 /* menu.cpp */,
+				FC837C302536C96E00A33F53 /* menu.h */,
+				FC837C312536C96E00A33F53 /* RedDragon.cpp */,
+				FC837C322536C96E00A33F53 /* RedDragon.h */,
 			);
 			path = Dragon_Lord;
 			sourceTree = "<group>";
@@ -118,7 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC837C222536C93900A33F53 /* main.cpp in Sources */,
+				FC837C3A2536C96E00A33F53 /* BlueDragon.cpp in Sources */,
+				FC837C382536C96E00A33F53 /* RedDragon.cpp in Sources */,
+				FC837C362536C96E00A33F53 /* main.cpp in Sources */,
+				FC837C352536C96E00A33F53 /* BlackDragon.cpp in Sources */,
+				FC837C372536C96E00A33F53 /* menu.cpp in Sources */,
+				FC837C392536C96E00A33F53 /* Dragon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
